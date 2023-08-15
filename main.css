@@ -1,0 +1,650 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.blackfixed{
+    width: 100%;height: 50px;
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    display: flex;
+    
+}
+
+.box{
+    width: 90px;height: 50px;
+}
+.box1 {
+    width: 90px;
+    height: 50px;
+}
+
+.blackfixed .box1.logo {
+   background-image: url(logo.png);
+   background-size: 50px;
+   background-repeat: no-repeat;
+}
+
+.logo{
+    position: relative;
+    top: 5px;left: 5px;
+}
+
+.blackfixed .giohang{
+    width: 60px;height: 50px;
+    background-image: url(giohang.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 63px;
+    margin-top: 10px;
+    
+   
+}
+.blackfixed .lienlac{
+    width: 60px;
+    height: 50px;
+    background-image: url(contact.png);
+    background-size: 27px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 1px;
+    margin-top: 10px;
+}
+
+.menu1,.menu2,
+.menu3,
+.menu4{
+    position: relative;
+    left: 50%;
+    transform: translateX(-280%);
+    color: rgb(236, 126, 22);
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.blackfixed .giohang{
+   justify-items: flex-end;
+}
+
+.box:hover{
+    transition: 0.3s;
+    background-color: rgb(43, 35, 35);
+    color: rgb(221, 160, 104);
+}
+
+
+/*
+container1
+*/
+
+.container1{
+    width: 100%;
+    height: 40vh;
+    background-image: url(1312001.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.container1 .namegame{
+    width: 250px;height: 90px;
+    color: white;
+    position: absolute;
+    top: 110px;
+    left: 50px;
+}
+.container1 .sale{
+    width: 40px;height: 30px;
+    background-color: rgb(235, 130, 11);
+    border-radius: 9px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    position: absolute;
+   left: 50px;
+   top: 208px;
+}
+.container1 .money{
+    color: rgb(240, 240, 240);
+    font-size: 40px;
+    font-weight: 100;
+    position: absolute;
+    left: 115px;
+    top: 200px;
+}
+
+
+.container2{
+    width: 100%;height: 880px;
+    background-color: rgb(54, 54, 54);
+    
+    position: relative;
+    display: flex;
+}
+.container2_main{
+    width:1400px;height: 850px;
+    background-color: rgb(54, 54, 54);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-between;
+        box-sizing: border-box;
+}
+
+.container2_box{
+    margin-top: 20px;
+    background-color: brown;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    list-style: none;
+}
+
+.container2_box{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: calc(33.33% - 20px);
+        /* Kích thước của các hộp con */
+        height: 230px;
+        border: 1px solid gray;
+        box-sizing: border-box;
+}
+.container2_box.box-1{
+    background-image: url(game1.jpg);
+    background-size: cover;
+}
+.container2_box.box-2 {
+    background-image: url(game2.jpg);
+    background-size: cover;
+}
+.container2_box.box-3 {
+    background-image: url(game3.jpg);
+    background-size: cover;
+}
+.container2_box.box-4 {
+    background-image: url(game4.jpg);
+    background-size: cover;
+}
+.container2_box.box-5 {
+    background-image: url(game5.jpg);
+    background-size: cover;
+}
+.container2_box.box-6 {
+    background-image: url(game6.jpg);
+    background-size: 100% 100%;
+}
+.container2_box.box-7 {
+    background-image: url(game7.jpg);
+    background-size: cover;
+}
+.container2_box.box-8 {
+    background-image: url(game8.jpg);
+    background-size: cover;
+}
+.container2_box.box-9 {
+    background-image: url(game9.jpg);
+    background-size: cover;
+}
+.container2_box.box-1 .flashsale {
+    width: 40px;height: 40px;
+    border-radius: 8px;
+    background-color: rgb(235, 130, 11);
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.container2_box.box-1 .inform{
+    width: 95%;height: 30px;
+    background-color: rgb(54, 54, 54);
+    font-family: cursive;
+    margin-top: 190px;
+    margin-left: 15px;
+    position: relative;
+    display: flex;
+}
+.container2_box.box-1 .inform .game{
+    width: 110px;height: 30px;
+    background-color: rgb(54, 54, 54);
+    font-size: 15px;
+    
+    line-height: 30px;
+    color: white;
+    position: absolute;
+    left: 5px;
+}
+.container2_box.box-1 .inform .price{
+    width: 40px;height: 30px;
+    background-color: rgb(54, 54, 54);
+    color: aliceblue;
+    line-height: 30px;
+    position: absolute;
+    right:10px;
+}
+.container2_box.box-2 .flashsale1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(235, 130, 11);
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.container2_box.box-2 .inform1 {
+    width: 95%;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    font-family: cursive ;
+    margin-top: 190px;
+    margin-left: 15px;
+    position: relative;
+    display: flex;
+}
+
+.container2_box.box-2 .inform1 .game1 {
+    width: 210px;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    font-size: 15px;
+    line-height: 30px;
+    color: white;
+    position: absolute;
+    left: 5px;
+}
+
+.container2_box.box-2 .inform1 .price1 {
+    width: 40px;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    color: aliceblue;
+    line-height: 30px;
+    position: absolute;
+    right: 10px;
+}
+
+.container2_box.box-3 .flashsale2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(235, 130, 11);
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.container2_box.box-3 .inform2 {
+    width: 95%;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    font-family: cursive;
+    margin-top: 190px;
+    margin-left: 15px;
+    position: relative;
+    display: flex;
+}
+
+.container2_box.box-3 .inform2 .game2 {
+    width: 210px;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    font-size: 15px;
+    line-height: 30px;
+    color: white;
+    position: absolute;
+    left: 5px;
+}
+
+.container2_box.box-3 .inform2 .price2 {
+    width: 40px;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    color: aliceblue;
+    line-height: 30px;
+    position: absolute;
+    right: 10px;
+}
+
+.container2_box.box-4 .flashsale3 {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(235, 130, 11);
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.container2_box.box-4 .inform3 {
+    width: 95%;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    font-family: cursive;
+    margin-top: 190px;
+    margin-left: 15px;
+    position: relative;
+    display: flex;
+}
+
+.container2_box.box-4 .inform3 .game3 {
+    width: 210px;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    font-size: 15px;
+    line-height: 30px;
+    color: white;
+    position: absolute;
+    left: 5px;
+}
+
+.container2_box.box-4 .inform3 .price3 {
+    width: 40px;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    color: aliceblue;
+    line-height: 30px;
+    position: absolute;
+    right: 25px;
+}
+
+.container2_box.box-5 .flashsale4 {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(235, 130, 11);
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.container2_box.box-5 .inform4 {
+    width: 95%;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    font-family: cursive;
+    margin-top: 190px;
+    margin-left: 15px;
+    position: relative;
+    display: flex;
+}
+
+.container2_box.box-5 .inform4 .game4 {
+    width: 210px;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    font-size: 15px;
+    line-height: 30px;
+    color: white;
+    position: absolute;
+    left: 5px;
+}
+
+.container2_box.box-5 .inform4 .price4 {
+    width: 40px;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    color: aliceblue;
+    line-height: 30px;
+    position: absolute;
+    right: 25px;
+}
+
+.container2_box.box-6 .flashsale5 {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(235, 130, 11);
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.container2_box.box-6 .inform5 {
+    width: 95%;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    font-family: cursive;
+    margin-top: 190px;
+    margin-left: 15px;
+    position: relative;
+    display: flex;
+}
+
+.container2_box.box-6 .inform5 .game5 {
+    width: 210px;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    font-size: 15px;
+    line-height: 30px;
+    color: white;
+    position: absolute;
+    left: 5px;
+}
+
+.container2_box.box-6 .inform5 .price5 {
+    width: 40px;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    color: aliceblue;
+    line-height: 30px;
+    position: absolute;
+    right: 25px;
+}
+
+.container2_box.box-5 .inform4 .game4 {
+    width: 210px;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    font-size: 15px;
+    line-height: 30px;
+    color: white;
+    position: absolute;
+    left: 5px;
+}
+
+.container2_box.box-5 .inform4 .price4 {
+    width: 40px;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    color: aliceblue;
+    line-height: 30px;
+    position: absolute;
+    right: 25px;
+}
+
+.container2_box.box-7 .flashsale6 {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(235, 130, 11);
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.container2_box.box-7 .inform6 {
+    width: 95%;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    font-family: cursive;
+    margin-top: 190px;
+    margin-left: 15px;
+    position: relative;
+    display: flex;
+}
+
+.container2_box.box-7 .inform6 .game6 {
+    width: 210px;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    font-size: 15px;
+    line-height: 30px;
+    color: white;
+    position: absolute;
+    left: 5px;
+}
+
+.container2_box.box-7 .inform6 .price6 {
+    width: 40px;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    color: aliceblue;
+    line-height: 30px;
+    position: absolute;
+    right: 25px;
+}
+
+.container2_box.box-5 .inform4 .game4 {
+    width: 210px;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    font-size: 15px;
+    line-height: 30px;
+    color: white;
+    position: absolute;
+    left: 5px;
+}
+
+.container2_box.box-5 .inform4 .price4 {
+    width: 40px;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    color: aliceblue;
+    line-height: 30px;
+    position: absolute;
+    right: 25px;
+}
+
+.container2_box.box-8 .flashsale7 {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(235, 130, 11);
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.container2_box.box-8 .inform7 {
+    width: 95%;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    font-family: cursive;
+    margin-top: 190px;
+    margin-left: 15px;
+    position: relative;
+    display: flex;
+}
+
+.container2_box.box-8 .inform7 .game7 {
+    width: 210px;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    font-size: 15px;
+    line-height: 30px;
+    color: white;
+    position: absolute;
+    left: 5px;
+}
+
+.container2_box.box-8 .inform7 .price7 {
+    width: 40px;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    color: aliceblue;
+    line-height: 30px;
+    position: absolute;
+    right: 25px;
+}
+
+.container2_box.box-8 .inform7 .game7 {
+    width: 210px;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    font-size: 15px;
+    line-height: 30px;
+    color: white;
+    position: absolute;
+    left: 5px;
+}
+
+.container2_box.box-8 .inform7 .price7 {
+    width: 40px;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    color: aliceblue;
+    line-height: 30px;
+    position: absolute;
+    right: 10px;
+}
+
+.container2_box.box-9 .flashsale8 {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(235, 130, 11);
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.container2_box.box-9 .inform8 {
+    width: 95%;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    font-family: cursive;
+    margin-top: 190px;
+    margin-left: 15px;
+    position: relative;
+    display: flex;
+}
+
+.container2_box.box-9 .inform8 .game8 {
+    width: 260px;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    font-size: 15px;
+    line-height: 30px;
+    color: white;
+    position: absolute;
+    left: 5px;
+}
+
+.container2_box.box-9 .inform8 .price8 {
+    width: 40px;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    color: aliceblue;
+    line-height: 30px;
+    position: absolute;
+    right: 10px;
+}
+
+/* HOVER */
+
+.container2_box:hover {
+    transition: 0.7s;
+    transform: scale(1.1);
+}
